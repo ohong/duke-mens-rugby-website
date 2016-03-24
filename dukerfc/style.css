@@ -1,0 +1,229 @@
+body {
+	font: 100% "Helvetica Neue", "Helvetica", sans;
+    background-image: url("team_background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+#container {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #082052;
+	color: white;
+}
+
+#content {
+	padding: 10px;
+	margin: auto;
+	display: block;
+}
+
+#nav{
+	list-style-type: none;
+	background-color: #082052;
+	width: 100%;
+	height: 3em;
+	padding-left: 15em;
+}
+
+#main {
+	font-family:"Century Schoolbook","Century",serif;
+	margin: auto;
+	width: 60em;
+	padding:0.5em;
+	text-align: center;
+	background-color:#FFFFFF;
+	border: 0.5em solid #082052;
+}
+
+#home-main {
+	font-family:"Century Schoolbook","Century",serif;
+	margin-top: 26em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60em;
+	padding:0.5em;
+	background-color:#FFFFFF;
+	border: 0.5em solid #082052;
+	clear: both;
+}
+
+#footer {
+	color: white;
+	background-color: #082052;
+	clear: both;
+	font-weight:500;
+	font-size:1em;
+	line-height:1.5;
+	text-align:center;
+	padding: 0.2em;
+}
+
+#home-welcome {
+	margin-top:2em;
+	margin-left:2em;
+	float: right;
+	display: inline-block;
+	overflow: auto;
+}
+
+#home-welcome img {
+    width: 60%;
+    height: auto;
+    align: center;
+}
+
+#social-media-icons {
+	margin-top: 1em;
+}
+
+#social-media-icons img {
+	width: 5%;
+    height: auto;
+}
+
+#roster{
+	display: inline-block;
+	padding: 0.5em;
+	width: 90%;
+}
+
+#captain {
+	font-family:"Century Schoolbook","Century",serif;
+	width:70%;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	border-bottom: 1em solid #082052;
+}
+
+#captain img {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin: 1em;
+}
+
+#history {
+	font-family:"Century Schoolbook","Century",serif;
+	width:70%;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	border-bottom: 1em solid #082052;
+}
+
+#history img {
+    width: 100%;
+    height: auto;
+    align: center
+    margin: 1em;
+}
+
+.selected{
+	font-weight: bold;
+	color: white;
+}
+
+.home-schedule {
+	width:25%;
+	margin-top:2em;
+	margin-left:1em;
+	padding:1em;
+	background-color:#FFFFFF;
+	border: 0.5em solid #082052;
+	display: inline-block;
+}
+
+.page-content {
+font-family:"Century Schoolbook","Century",serif;
+width:70%;
+margin:0 auto;
+padding:0.5em;
+background-color:#FFFFFF;
+border-bottom: 1em solid #082052;
+}
+
+#calendar {
+	margin-top:2em;
+	margin-right:8em;
+}
+
+.season-schedule {
+	width:35%;
+	margin-top:2em;
+	margin-left:8em;
+	padding: 1em;
+	background-color:#FFFFFF;
+	border: 0.5em solid #082052;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	vertical-align: middle;
+	height: 3em;	
+}
+
+th {
+	background-color: #082052;
+	color: white;
+}
+
+.shaded {
+	background-color: #cccccc;
+}
+
+ul li {
+	display: inline-block;
+	height: 80%;
+	width: auto;
+	padding-left: 8em;
+}
+	
+a {
+	color: #0da4ff;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	color:white;
+}
+
+h1
+{
+color: white;
+font-size:3em;
+font-weight:800;
+padding-top:0.5em;
+padding-left:0.5em;
+text-align:left;
+}
+
+h2
+{
+color: black;
+font-size:2em;
+font-weight:600;
+text-align:center;
+}
+
+p
+{
+font-weight:200;
+font-size:1em;
+line-height:1.5;
+text-align:justify;
+width: 60%
+margin: 0;
+margin-bottom: 1em;
+}
